@@ -1,0 +1,318 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #313639;
+    color: #E3DAC9;
+    font-size:1.2em;
+}
+
+/* DEFAULT PAGE COLORS */
+.blackbg{background-color: #313639;}
+.blacktext{color: #313639;}
+.whitebg{background-color: #fffafa ; }.whitetext{ color: #fffafa ;}
+.seagreen{background-color: #4cc1bb; }.seagreentext{ color: #4cc1bb;}
+.highlightcolor{color: #4cc1bb;}
+/* SECTION 1 */
+
+.resume-btn{
+    background-color: #4cc1bb !important;
+}
+.resume-btn:hover{
+    background-color: #4cc1bb !important;
+}
+
+@keyframes shadow-pulse
+{
+     0% {
+            color: #4cc1bb;
+     }
+     100% {
+        color: #313639;
+    }
+}
+.example-1
+{
+     animation: shadow-pulse 1s infinite;
+}
+
+section:not(last-child){
+    height:100vh;
+    /* padding-top:25px;
+    padding-bottom:25px; */
+}
+
+.confirm-send{
+    width:20%;
+    height:auto;
+}
+
+.project-link{
+    color: #fffafa;
+}
+
+.hero-title{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:40%;
+    line-height:45px;
+}
+.nametitle{
+    font-size:2.6em;
+}
+.jobtitle{
+    font-size: 2.1em;
+}
+.period{
+    font-size:1.8em;
+    padding-left:5px;
+    font-weight:bold;
+}
+
+
+/* SECTION 2 SKILLS */
+/* SECTION 3 PORTFOLIO */
+/* SECTION 4 CONTACT ME */
+.page-title{
+    font-size:1.8em;
+}
+.page-title span{
+    border-bottom:2px solid #fffafa ;
+
+}
+table{
+    font-size:1em;
+}
+th{
+    color: #4cc1bb !important;
+}
+.section-description{
+    font-size:1.1em;   
+    font-weight:300;
+    margin-top:20px;
+}
+.project-box{
+    background-color:313639;
+    padding:10px !important;
+}
+.project-title{
+    text-align:center;
+    font-weight:600;
+}
+.links{
+    font-weight:400;
+}
+
+@media only screen and (max-width: 875px) {
+    /* .nametitle{
+        font-size:1.8em;
+    }
+    .jobtitle{
+        padding-left:2.5em;
+    }
+    .period{
+        font-size:0.8em;
+        padding-left:2px;
+        font-weight:bold;
+    } */
+}
+@media only screen and (max-width: 650px) {
+    /* .nametitle{
+        font-size:1.5em;
+    }
+    .jobtitle{
+        padding-left:2.0em;
+    }
+    .period{
+        font-size:0.7em;
+        padding-left:2px;
+        font-weight:bold;
+    } */
+}
+@media only screen and (max-width:590px) {
+    .nametitle{
+        font-size:1.8em;
+    }
+    .jobtitle{
+        font-size:1.5em;
+
+    }
+    .period{
+        font-size:0.7em;
+        padding-left:2px;
+        font-weight:bold;
+    }
+}
+@media only screen and (max-width: 423px) {
+    .nametitle{
+        font-size:1.6em;
+    }
+    .jobtitle{
+        font-size:1.3em;
+
+    }
+    .period{
+        font-size:0.7em;
+        padding-left:2px;
+        font-weight:bold;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section4{
+        margin-top:60vh !important;
+        height:900px !important;
+    }
+}
+
+
+label{
+    color: #313639;
+}
+input{
+    background-color: #313639 !important;
+
+}
+input[type="text"], input[type="email"], input[type="number"]{
+    border:             1px solid #ccc !important;
+    border-radius:      5px !important;
+    padding-top:        2px !important;
+    padding-bottom:     2px !important;
+    height:             30px !important;
+    background-color: #E8F0FE !important;
+    color:            #313639  !important;
+    padding-left:       15px !important;
+    font-weight:        400 !important;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus{
+    border:             1px solid #ccc !important;
+    border-radius:      5px !important;
+    padding-top:        2px !important;
+    padding-bottom:     2px !important;
+    height:             30px !important;
+    background-color: #E8F0FE !important;
+    color:            #313639  !important;
+    padding-left:       15px !important;
+    font-weight:        400 !important;
+}
+input[type="text"]:active, input[type="email"]:active, input[type="number"]:active{
+    border:             1px solid #ccc !important;
+    border-radius:      5px !important;
+    padding-top:        2px !important;
+    padding-bottom:     2px !important;
+    height:             30px !important;
+    background-color: #E8F0FE !important;
+    color:            #313639  !important;
+    padding-left:       15px !important;
+    font-weight:        400 !important;
+}
+
+textarea{
+    border:             1px solid #ccc !important;
+    border-radius:      5px !important;
+    padding-top:        2px !important;
+    padding-bottom:     2px !important;
+    background-color: #E8F0FE !important;
+    color:            #313639  !important;
+    padding-left:       15px !important;
+    font-weight:        400 !important;
+    min-height:         100px !important;
+    padding-top:10px !important;
+    resize: none;
+}
+.contact-section{
+    margin-bottom:20px !important;
+    margin-top:20px !important;
+    font-size:1.2em !important;
+    font-weight:500;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 30%;
+    left: 0;
+}
+.nav li {
+    font-size:1.3em;;
+    height:50px;
+    width: 100px; /*new*/
+    text-align: center; /*new*/
+    transition: all 0.2s ease-in-out;
+}
+
+.nav li a {
+    font-family: lato, sans-serif;
+    color:#eee;
+    font-size:1em;
+    text-decoration: none;
+}
+.nav li i {
+    color:#4cc1bb;
+}
+.nav li b {
+    font-size:0.8em;
+    padding: 15px 0;
+    display: none;
+}
+.nav a:hover {
+    color: #4cc1bb;
+}
+.nav a:hover i {
+    display: none;
+}
+.nav a:hover b {
+    display: block;
+}
+
+/* PROJECTS */
+.projects-container{
+    margin-top:50px;
+    margin-bottom:150px;
+}
+.project-page-title{
+    font-size:2em;
+    margin-bottom:20px;
+}
+.project-description{
+    font-style: italic;
+    /* padding-left:50px !important;
+    padding-right:50px !important; */
+    margin-top:10px;
+    font-weight:300;
+}
+.photo-title{
+    font-weight:bold;
+}
+.margin-top{
+    margin-top:50px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #4cc1bb;
+    color: #313639;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+  }
+  #myBtn i {
+    font-size:25px;
+    font-weight:bold;
+  }
+  
+  #myBtn:hover {
+    background-color: #4cc1bb;
+  }
